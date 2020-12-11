@@ -5,7 +5,10 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(function (req, res, next) {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://https://auto-dog.herokuapp.com/"
+  );
 
   res.setHeader(
     "Access-Control-Allow-Methods",
