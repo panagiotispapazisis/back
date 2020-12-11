@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://auto-dog.herokuapp.com:3000"
+    "https://auto-dog.herokuapp.com"
   );
 
   res.setHeader(
